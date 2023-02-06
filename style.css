@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  background-image: radial-gradient(
+    circle at 120.71% 50%,
+    #009b5f 0,
+    #009c71 3.33%,
+    #009c84 6.67%,
+    #009c96 10%,
+    #009da8 13.33%,
+    #009cb9 16.67%,
+    #009cc9 20%,
+    #009bd7 23.33%,
+    #0099e4 26.67%,
+    #0097ef 30%,
+    #0095f8 33.33%,
+    #0091ff 36.67%,
+    #008dff 40%,
+    #0088ff 43.33%,
+    #0083ff 46.67%,
+    #007cff 50%,
+    #5b74f9 53.33%,
+    #816cf0 56.67%,
+    #9d63e5 60%,
+    #b359d8 63.33%,
+    #c54eca 66.67%,
+    #d444ba 70%,
+    #df3aa9 73.33%,
+    #e83198 76.67%,
+    #ee2c87 80%,
+    #f12b75 83.33%,
+    #f12e64 86.67%,
+    #ef3553 90%,
+    #eb3f43 93.33%,
+    #e54832 96.67%,
+    #de5220 100%
+  );
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: #c69ad9;
+  width: 320px;
+  height: 380px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.nome {
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+.form .nome .name-input {
+  display: block;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.email {
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+.form .email .email-input {
+  display: block;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.senha {
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+.form .senha .input-pass {
+  display: block;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.telefone {
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+.form .telefone .input-tel {
+  display: block;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.input-btn {
+  border-radius: 10px;
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 25px;
+}
+.input-btn:hover {
+  background-color: #b359d8;
+  color: white;
+}
